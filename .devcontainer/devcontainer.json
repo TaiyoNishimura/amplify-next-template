@@ -1,0 +1,17 @@
+{
+	"name": "Node.js & TypeScript",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "ts-node",
+    "workspaceFolder": "/app",
+	"remoteUser": "root",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "dsznajder.es7-react-js-snippets",
+                "ritwickdey.liveserver",
+                "amazonwebservices.amazon-q-vscode"
+            ]
+        }
+    }
+}
